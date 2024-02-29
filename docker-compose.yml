@@ -22,8 +22,8 @@ services:
     image: harukamaaleoexplorer
     build:
       context: .
-      dockerfile: ./alpine.Dockerfile
-      #dockerfile: ./slim.Dockerfile
+      # dockerfile: ./alpine.Dockerfile
+      dockerfile: ./slim.Dockerfile
     environment:
       - DB_HOST=db
       - DB_USER=postgres
